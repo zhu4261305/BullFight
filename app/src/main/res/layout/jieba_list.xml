@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            style="@style/Smile.TextView._Black"
+            android:text="红色钱包"
+            android:singleLine="true"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_describe"
+            android:layout_marginTop="10dp"
+            android:text="周三早上丢失了"
+            style="@style/Smile.TextView._Gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:minLines="1"
+            android:maxLines="2"
+            android:textSize="16sp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_marginTop="10dp"
+            android:text="20130240122"
+            style="@style/Smile.TextView._Gray"
+            android:textSize="12sp"
+            android:layout_below="@id/tv_describe" >
+        </TextView>
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/item_image"
+           android:background="@drawable/ic_launcher"/>
+   </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

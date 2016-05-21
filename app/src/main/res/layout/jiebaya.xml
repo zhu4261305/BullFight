@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_image"
+            android:background="@drawable/ic_launcher"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv_title"
+            android:layout_width="137dp"
+            style="@style/Smile.TextView._Black"
+            android:text="红色钱包"
+            android:singleLine="true"
+            android:textSize="25sp"
+            >
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@color/normal_orange_color"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bottom_table_find"/>
+
+        <TextView
+            android:id="@+id/tv_describe"
+            android:layout_marginTop="10dp"
+            android:text="1200"
+            style="@style/Smile.TextView._Black"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="55dp"
+
+            >
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/tv_time"
+            android:text="20130240122"
+            style="@style/Smile.TextView._Gray"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/im">
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

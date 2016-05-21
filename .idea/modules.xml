@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BmobSDK_V3.4.5_1111/BmobSDK_V3.4.5_1111.iml" filepath="$PROJECT_DIR$/BmobSDK_V3.4.5_1111/BmobSDK_V3.4.5_1111.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bmob_Push_V0.6beta_20150408/Bmob_Push_V0.6beta_20150408.iml" filepath="$PROJECT_DIR$/Bmob_Push_V0.6beta_20150408/Bmob_Push_V0.6beta_20150408.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volley/Volley.iml" filepath="$PROJECT_DIR$/Volley/Volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7-recyclerview/android-support-v7-recyclerview.iml" filepath="$PROJECT_DIR$/android-support-v7-recyclerview/android-support-v7-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picasso-2.5.2/picasso-2.5.2.iml" filepath="$PROJECT_DIR$/picasso-2.5.2/picasso-2.5.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universal-image-loader-1.9.0/universal-image-loader-1.9.0.iml" filepath="$PROJECT_DIR$/universal-image-loader-1.9.0/universal-image-loader-1.9.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xUtils-2.6.14/xUtils-2.6.14.iml" filepath="$PROJECT_DIR$/xUtils-2.6.14/xUtils-2.6.14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yueqiu.iml" filepath="$PROJECT_DIR$/yueqiu.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BmobSDK_V3.4.5_1111" />
+            <option value="$PROJECT_DIR$/Bmob_Push_V0.6beta_20150408" />
+            <option value="$PROJECT_DIR$/Volley" />
+            <option value="$PROJECT_DIR$/android-support-v7-recyclerview" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/picasso-2.5.2" />
+            <option value="$PROJECT_DIR$/universal-image-loader-1.9.0" />
+            <option value="$PROJECT_DIR$/xUtils-2.6.14" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

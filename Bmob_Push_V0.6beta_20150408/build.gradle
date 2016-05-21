@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('Bmob_Push_V0.6beta_20150408.jar'))

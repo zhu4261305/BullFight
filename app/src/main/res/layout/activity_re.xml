@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+    <include layout="@layout/include_add_top_me"
+        android:id="@+id/actionbar_register"
+        style="@style/ActionBar" ></include>
+
+    <TextView
+        android:id="@+id/login_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionbar_register"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_login_tab"
+        android:gravity="center"
+        android:padding="8dip"
+        android:text="登录"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/register_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/login_menu"
+        android:layout_toRightOf="@id/login_menu"
+        android:gravity="center"
+        android:padding="8dip"
+        android:text="注册"
+        android:textColor="@color/normal_orange_color"
+        android:textSize="16sp" />
+
+
+
+
+    <View
+        android:id="@+id/diviver"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/register_menu"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/normal_orange_color" />
+    <com.example.my.baidu.View.DeletableEditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_alignLeft="@id/diviver"
+        android:layout_alignRight="@id/diviver"
+        android:layout_below="@id/diviver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_edittext_account"
+        android:drawableLeft="@drawable/user_account"
+        android:drawableRight="@drawable/user_delete"
+        android:ems="10"
+        android:hint="请输入帐号名"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:singleLine="true" >
+
+
+    </com.example.my.baidu.View.DeletableEditText>
+    <com.example.my.baidu.View.DeletableEditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_alignLeft="@id/et_name"
+        android:layout_alignRight="@id/et_name"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_edittext_account"
+        android:drawableLeft="@drawable/user_password"
+        android:drawableRight="@drawable/user_delete"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:singleLine="true" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_pass"
+        android:layout_alignRight="@+id/et_pass"
+        android:layout_below="@+id/et_pass"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_logout"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

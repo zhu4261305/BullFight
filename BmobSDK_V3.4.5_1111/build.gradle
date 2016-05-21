@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('BmobSDK_V3.4.5_1111.jar'))

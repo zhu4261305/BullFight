@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/web_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/normal_space"
+        android:textSize="@dimen/title_text_size"
+        android:text="新闻"
+        android:background="@color/normal_orange_color"
+        android:textColor="@color/white"
+        />
+    <WebView android:id="@+id/WebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0.0dip"
+        android:layout_y="0.0dip"
+        android:layout_weight="1.0" />
+
+</LinearLayout>
